@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-mongoose.connect("mongodb+srv://demoDB:Twite_34@sandbox.xdes7.mongodb.net/EventManagementDB", {
+mongoose.connect("enter your connection string/Databasename", {
     useNewUrlParser: true
 })
 .then( () => console.log("MongoDb is connected"))
