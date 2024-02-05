@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const aws = require('aws-sdk')
 const UserController = require("../controllers/userController")
 const EventController = require("../controllers/eventController")
 const InvitationController = require("../controllers/invitationController")
