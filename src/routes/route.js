@@ -4,7 +4,6 @@ const UserController = require("../controllers/userController")
 const EventController = require("../controllers/eventController")
 const InvitationController = require("../controllers/invitationController")
 const mid = require("../middlware/middlware")
-const { route } = require('express/lib/application');
 
 
 //1.  Create (User can create Event)
